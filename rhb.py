@@ -24,7 +24,7 @@ time.sleep(1)
 SecureWord = driver.find_elements(By.CSS_SELECTOR, "div[class='eo1y15s0 css-1h01lju-StyledBox e70o5gl0']")[2].click()
 
 password = driver.find_elements(By.NAME, "password")[1]
-password.send_keys('password') #Enter your account name/ID
+password.send_keys('password') #Enter your password
 
 time.sleep(1)
 LoginButton = driver.find_elements(By.CSS_SELECTOR, "button[class='mdc-button mdc-ripple-upgraded is-rounded css-emnlx8-ButtonBase e1pfhu1r0 mdc-button--unelevated']")[1].click()
